@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: navy;
+    padding: 20px 15px 20px 15px;
+    /* height: 100vh; */
+}
+.main{
+    /* margin-top: 25px; */
+    /* margin-bottom: 25px;*/
+    background-color: white;
+    border-radius: 5px;
+}
+.head__child{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(1, 1, 94);
+    margin: 0 auto;
+}
+.head__follow{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.section{
+    color: white;
+    background-color: rgba(2, 2, 128, 0.904);
+    padding: 10px;
+}
+.section__head{
+    padding: 5px 0x;
+}
+.section__description{
+    padding: 5px 0px;
+    font-size: 20px;
+}
+button{
+    background-color: blue;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.about-section{
+    padding: 10px;
+}
+.about__description{
+margin-bottom: 10px;
+}
+
+.grid-show{
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 60px;
+    height: 100px;
+}
+.service{
+    padding: 20px 10px;
+}
+.content{
+    padding: 20px 10px;
+}
+.content__head{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.footer{
+    background-color: rgb(1, 1, 94);
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
